@@ -27,9 +27,8 @@ a {
   text-decoration: none;
   color: #f0f0f0; }
 
-img {
-  display: block;
-  width: 100%; }
+figure {
+  display: block; }
 
 #navbar {
   display: flex;
@@ -61,6 +60,22 @@ img {
   #welcome-section p {
     font-style: italic;
     color: #be3144; }
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  #projects .projects-grids {
+    margin: 15px auto; }
+    #projects .projects-grids figure {
+      padding: 10px; }
+      #projects .projects-grids figure img {
+        width: 100%; }
+      #projects .projects-grids figure figcaption {
+        background-color: #303841;
+        color: #f0f0f0;
+        text-align: center; }
 
 #contact {
   display: flex;
